@@ -27,9 +27,11 @@ public class FacebookLogin {
 
         driver.get("https://www.facebook.com/messages/t");
 
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[contains(@class, 'uiScrollableAreaContent')]//div/div[2]/div[last()]")));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//div[contains(@class,"
+                + " 'uiScrollableAreaContent')]//div/div[2]/div[last()]")));
 
-        String content = (driver.findElement(By.xpath("//div[contains(@class, 'uiScrollableAreaContent')]//div/div[2]/div[last()]/span"))).getText();
+        String content = (driver.findElement(By.xpath("//div[contains(@class, 'uiScrollableAreaContent')]"
+                + "//div/div[2]/div[last()]/span"))).getText();
         System.out.println(content);
 
         driver.quit();
