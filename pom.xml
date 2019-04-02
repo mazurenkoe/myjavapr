@@ -19,6 +19,12 @@
             <artifactId>selenium-server</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <dependency>
+            <groupId>HwTH2019</groupId>
+            <artifactId>HwTH2019</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
