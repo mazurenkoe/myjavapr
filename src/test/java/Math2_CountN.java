@@ -5,13 +5,10 @@ public class Math2_CountN {
 
     public static void main(String[] args) {
         int n = 27;
-        int result = 0;
-        String str = Integer.toString(n);
-        for(int i = 0; i < 2; i++) {
-            result += Character.getNumericValue(str.charAt(i));
-        }
+        int result = Math4_CountThree.countNumberSum(n);
         System.out.println(result);
     }
+
 }
 
 

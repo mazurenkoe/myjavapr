@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/BrowserNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/FilmInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/TestNgExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Math3_Rounding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Math3_Rounding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math2_CountN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Math2_CountN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math4_CountThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Math4_CountThree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,35 +100,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Math2_CountN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math1_Division.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Math3_Rounding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math3_Rounding.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Math4_CountThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math4_CountThree.java">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="13" selection-end-column="29" />
+            <state relative-caret-position="263">
+              <caret line="3105" column="35" selection-start-line="3105" selection-start-column="29" selection-end-line="3105" selection-end-column="35" />
+              <folding>
+                <element signature="e#121727#121728#0" expanded="true" />
+                <element signature="e#121769#121770#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,12 +168,12 @@
         <option value="$PROJECT_DIR$/src/test/java/CountN.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task_2_CountN.java" />
         <option value="$PROJECT_DIR$/src/test/java/Math1_Division.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Math2_CountN.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Math4_CountThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson3/TestNgExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson3/BrowserNavigation.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson3/FilmInfo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Math3_Rounding.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Math2_CountN.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Math4_CountThree.java" />
       </list>
     </option>
   </component>
@@ -264,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554242588513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554245306232" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/lesson1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -291,7 +291,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Math3_Rounding">
+  <component name="RunManager" selected="Application.Math4_CountThree">
+    <configuration name="Math2_CountN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math2_CountN" />
+      <module name="myjavapr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Math3_Rounding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math3_Rounding" />
       <module name="myjavapr" />
@@ -302,23 +309,6 @@
     <configuration name="Math4_CountThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math4_CountThree" />
       <module name="myjavapr" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrowserNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="myjavapr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.BrowserNavigation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -360,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Math4_CountThree" />
+        <item itemvalue="Application.Math2_CountN" />
         <item itemvalue="Application.Math3_Rounding" />
         <item itemvalue="TestNG.FilmInfo.FindFilm" />
         <item itemvalue="TestNG.FilmInfo" />
-        <item itemvalue="TestNG.BrowserNavigation" />
-        <item itemvalue="Application.Math4_CountThree" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +416,7 @@
     <frame x="49" y="-3" width="1311" height="771" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.256917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.256917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,7 +425,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29493088" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29493088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,20 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Math4_CountThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Math2_CountN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -608,10 +584,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="3105" column="35" selection-start-line="3105" selection-start-column="29" selection-end-line="3105" selection-end-column="35" />
+          <folding>
+            <element signature="e#121727#121728#0" expanded="true" />
+            <element signature="e#121769#121770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Math3_Rounding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Math2_CountN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Math4_CountThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
