@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task_5_Define_Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task_4_CompareNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Task1_2_MinimalNumber_MaxCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Task1_2_MinimalNumber_MaxCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_3_MinMaxNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Task_3_MinMaxNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_5_Define_Season.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Task_5_Define_Season.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lesson6/IncrementDecrement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task_5_Define_Season.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task_4_CompareNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -176,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Task_3_MinMaxNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task_5_Define_Season.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Task_4_CompareNames.java" />
       </list>
     </option>
   </component>
@@ -282,7 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555013936474" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555014813994" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/lesson1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -312,20 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_5_Define_Season">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.BubbleSort" />
-      <module name="myjavapr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task_4_CompareNames">
     <configuration name="ClassSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson6.ClassSortExample" />
       <module name="myjavapr" />
@@ -353,6 +339,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_4_CompareNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_4_CompareNames" />
+      <module name="myjavapr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_5_Define_Season" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_5_Define_Season" />
       <module name="myjavapr" />
@@ -362,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_4_CompareNames" />
         <item itemvalue="Application.Task_5_Define_Season" />
         <item itemvalue="Application.Task_3_MinMaxNumber" />
         <item itemvalue="Application.Task1_2_MinimalNumber_MaxCount" />
         <item itemvalue="Application.ClassSortExample" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -704,8 +697,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Task_5_Define_Season.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_4_CompareNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
