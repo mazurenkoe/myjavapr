@@ -64,7 +64,7 @@ public class Task1_2_MinimalNumber_MaxCount {
      */
     protected static int[] inputArray(int length) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Insert " + length + " integers separating each integer by space and press enter: ");
+        System.out.println("Insert " + length + " integer(s) separating each integer by space and press enter: ");
 
         int[] arr = new int[length];
         for (int i = 0; i < arr.length; i++) {
