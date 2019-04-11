@@ -10,13 +10,8 @@ import java.util.Scanner;
 public class Task1_2_MinimalNumber_MaxCount {
 
     public static void main(String[] args) throws InterruptedException {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Insert four integers separating each integer by space: ");
 
-        int arr[] = new int[4];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = in.nextInt();
-        }
+        int[] arr = inputArray(4);
 
         selectionSort(arr);
 
@@ -49,6 +44,7 @@ public class Task1_2_MinimalNumber_MaxCount {
     }
 
     /**
+     *
      * @param arr
      * @return
      */
@@ -60,5 +56,20 @@ public class Task1_2_MinimalNumber_MaxCount {
                 countmax++;
             }
         return countmax;
+    }
+
+    /**
+     * @param length
+     * @return
+     */
+    protected static int[] inputArray(int length) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Insert " + length + " integers separating each integer by space and press enter: ");
+
+        int[] arr = new int[length];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = in.nextInt();
+        }
+        return arr;
     }
 }
