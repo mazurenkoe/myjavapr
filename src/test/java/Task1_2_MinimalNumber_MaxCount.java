@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  *
  */
-public class Task1_MinimalNumber {
+public class Task1_2_MinimalNumber_MaxCount {
 
     public static void main(String[] args) throws InterruptedException {
         Scanner in = new Scanner(System.in);
@@ -19,13 +19,18 @@ public class Task1_MinimalNumber {
         }
 
         selectionSort(arr);
-        System.out.print(arr[0]);
+
+        System.out.print("\nMin number, entered in array is: " + arr[0]);
+
+        int countmax = countMaxElements(arr);
+        System.out.print("\nMax integer(" + arr[arr.length - 1] + "), entered in array is present "
+                + countmax + " time(s)\n");
     }
 
     /**
      * @param arr
      */
-    static void selectionSort(@NotNull int[] arr) {
+    private static void selectionSort(@NotNull int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int min = arr[i];
             int min_i = i;
@@ -41,5 +46,19 @@ public class Task1_MinimalNumber {
                 arr[min_i] = tmp;
             }
         }
+    }
+
+    /**
+     * @param arr
+     * @return
+     */
+    private static int countMaxElements(@NotNull int[] arr) {
+        int countmax = 0;
+        int i;
+        for (i = 0; i < arr.length; i++)
+            if (arr[i] == arr[arr.length - 1]) {
+                countmax++;
+            }
+        return countmax;
     }
 }
