@@ -20,11 +20,11 @@ public class Akinator {
 
             Scanner in = new Scanner(System.in);
             System.out.println("\n--- Введите номер ответа: ---");
-            System.out.println("\nДа - 1");
-            System.out.println("\nНет - 2");
-            System.out.println("\nЯ не знаю - 3");
-            System.out.println("\nВозможно Частично - 4");
-            System.out.println("\nСкорее нет Не совсем - 5");
+            System.out.println("\n" + driver.findElement(By.id("a_yes")).getText() + " - 1");
+            System.out.println("\n" + driver.findElement(By.id("a_no")).getText() + " - 2");
+            System.out.println("\n" + driver.findElement(By.id("a_dont_know")).getText() + " - 3");
+            System.out.println("\n" + driver.findElement(By.id("a_probably")).getText() + " - 4");
+            System.out.println("\n" + driver.findElement(By.id("a_probaly_not")).getText() + " - 5");
 
             int answer = in.nextInt();
             String answerPositon;
