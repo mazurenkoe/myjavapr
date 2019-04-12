@@ -8,13 +8,14 @@ public class Akinator {
 
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
+
         driver.get("https://ru.akinator.com");
         driver.findElement(By.className("btn-play")).click();
 
         boolean gameNotOver = driver.findElements(By.className("proposal-title")).isEmpty();
-        System.out.println(gameNotOver);
 
         while (gameNotOver) {
+
             System.out.println("\n--- Ответьте на вопрос ---");
             System.out.println(driver.findElement(By.className("question-text")).getText());
 
