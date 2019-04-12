@@ -1,13 +1,17 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Scanner;
 
 public class Akinator {
 
+
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
+        WebDriverWait wait = new WebDriverWait(driver, 30);
 
         driver.get("https://ru.akinator.com");
         driver.findElement(By.className("btn-play")).click();
@@ -16,7 +20,10 @@ public class Akinator {
 
         while (gameNotOver) {
 
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("overlayed")));
+
             System.out.println("\n--- Ответьте на вопрос ---");
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("question-text")));
             System.out.println(driver.findElement(By.className("question-text")).getText());
 
             Scanner in = new Scanner(System.in);
@@ -25,7 +32,7 @@ public class Akinator {
             System.out.println("\n" + driver.findElement(By.id("a_no")).getText() + " - 2");
             System.out.println("\n" + driver.findElement(By.id("a_dont_know")).getText() + " - 3");
             System.out.println("\n" + driver.findElement(By.id("a_probably")).getText() + " - 4");
-            System.out.println("\n" + driver.findElement(By.id("a_probaly_not")).getText() + " - 5");
+            System.out.println("\n" + driver.findElement(By.id("a_probaly_not")).getText() + " - 5\n");
 
             int answer = in.nextInt();
             String answerPositon;
@@ -55,6 +62,7 @@ public class Akinator {
                 System.out.print(answerPositon);
             }
 
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("overlayed")));
             gameNotOver = driver.findElements(By.className("proposal-title")).isEmpty();
         }
 
