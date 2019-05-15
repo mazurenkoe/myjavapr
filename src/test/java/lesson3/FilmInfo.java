@@ -27,5 +27,4 @@ public class FilmInfo {
         driver.quit();
 
     }
-
 }

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Count_character_in_string {
+public class CountCharacterInString {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,9 @@ public class Count_character_in_string {
         String inputLetter = Character.toString(inputChar);
 
         int lengthStr = inputStr.length();
-        String withoutA = inputStr.replaceAll(inputLetter, "");
-        int lengthStrwithoutA = withoutA.length();
-        int countA = lengthStr - lengthStrwithoutA;
+        String withoutLetter = inputStr.replaceAll(inputLetter, "");
+        int lengthStrwithoutLetter = withoutLetter.length();
+        int countLetter = lengthStr - lengthStrwithoutLetter;
 
         List indexes = new ArrayList();
 
@@ -26,7 +26,7 @@ public class Count_character_in_string {
                 indexes.add(i);
         }
 
-        System.out.println("Character " + inputLetter + " is presented in given string "
-                + countA + " time(s) on position(s) " + indexes);
+        System.out.println("Character '" + inputLetter + "' is presented in given string "
+                + countLetter + " time(s) on position(s) " + indexes);
     }
 }

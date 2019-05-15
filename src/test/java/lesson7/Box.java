@@ -6,7 +6,7 @@ public class Box {
     public double height;
     public double depth;
 
-    public void volume()  {
+    public void volume() {
         System.out.print("Oбъeм равен ");
         System.out.println(width * height * depth);
     }
@@ -16,5 +16,26 @@ public class Box {
         height = h;
         depth = d;
     }
+
+    public double getVolume() {
+        return width * height * depth;
+    }
+
+    public void printInfo() {
+        System.out.println("Объем коробки: " + getVolume());
+        System.out.println("Вес коробки: " + width);
+    }
+
+    public Box(int width, int height, int depth) {
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
+
+    }
+
+    public Box(){
+        width = 20;
+    }
+
 
 }
