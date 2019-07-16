@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="" />
+    <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task_3_Arrows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +36,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task_2_File_Name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task_4_Snake_Case.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Snake_Case.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Arrows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -77,17 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task_1_Array_Unique_Elem_Count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math4_CountThree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -113,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
+            <state relative-caret-position="-152">
               <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/lesson8/TestNGTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/lesson8/RealTestNDTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson8/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tic_tac_toe.java" />
         <option value="$PROJECT_DIR$/src/test/java/Count_a.java" />
@@ -213,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Task_1_Array_Unique_Elem_Count.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task_3_File_Name.java" />
         <option value="$PROJECT_DIR$/src/test/java/Task_2_File_Name.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Task_4_Snake_Case.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Task_3_Arrows.java" />
       </list>
     </option>
   </component>
@@ -346,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563310108543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563311880626" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -384,14 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_4_Snake_Case">
-    <configuration name="FacebookLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FacebookLogin" />
-      <module name="myjavapr" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task_3_Arrows">
     <configuration name="Math2_CountN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math2_CountN" />
       <module name="myjavapr" />
@@ -413,6 +409,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_3_Arrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_3_Arrows" />
+      <module name="myjavapr" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_4_Snake_Case" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_4_Snake_Case" />
       <module name="myjavapr" />
@@ -422,11 +425,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_3_Arrows" />
         <item itemvalue="Application.Task_4_Snake_Case" />
         <item itemvalue="Application.Task_2_File_Name" />
         <item itemvalue="Application.Task_1_Array_Unique_Elem_Count" />
         <item itemvalue="Application.Math2_CountN" />
-        <item itemvalue="Application.FacebookLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -486,6 +489,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="60" width="1293" height="708" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980695" visible="true" weight="0.30793905" />
       <window_info id="Structure" order="1" sideWeight="0.5019305" side_tool="true" weight="0.265012" />
@@ -516,7 +520,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4980695" visible="true" weight="0.25140113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980695" visible="true" weight="0.30793905" />
       <window_info id="Structure" order="1" sideWeight="0.5019305" side_tool="true" weight="0.265012" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,15 +529,15 @@
       <window_info id="Favorites" order="6" sideWeight="0.5019305" side_tool="true" weight="0.26421136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1767442" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959904" visible="true" weight="0.40103272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24651162" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040096" side_tool="true" weight="0.24612737" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3131783" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31153184" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32964426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24979983" />
@@ -574,7 +578,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/LoginPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Akinator.java">
@@ -895,27 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_MinMaxNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task_1_Array_Unique_Elem_Count.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -941,17 +927,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task_2_File_Name.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_4_Snake_Case.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Snake_Case.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="-152">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_2_File_Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_1_Array_Unique_Elem_Count.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Arrows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
