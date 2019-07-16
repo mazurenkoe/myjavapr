@@ -19,7 +19,7 @@ public class FacebookLogin {
         driver.get("https://facebook.com");
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login_form")));
-        driver.findElement(By.id("email")).sendKeys(email);
+        driver.findElement(By.id("email12")).sendKeys(email);
         driver.findElement(By.id("pass")).sendKeys(password);
         driver.findElement(By.id("loginbutton")).click();
 

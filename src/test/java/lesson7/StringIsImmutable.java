@@ -10,5 +10,4 @@ public class StringIsImmutable {
         myString = myString.concat(" SPARROW"); // myString = "JACK" + " SPARROW"
         System.out.println(myString); // JACK SPARROW
     }
-
 }

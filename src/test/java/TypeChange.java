@@ -9,10 +9,14 @@ public class TypeChange {
         char cchar1;
         System.out.println(cchar1 = (char) xFloat);
 
+
+
         float xfloatq = 3.8644f;
         char cchar12;
         int iint12;
         cchar12 = (char) xfloatq;
         System.out.println(iint12 = (int) cchar12);
+
+
     }
 }
