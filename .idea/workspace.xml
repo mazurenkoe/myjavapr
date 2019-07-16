@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Task_2_File_Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_1_Array_Count.class" beforeDir="false" />
-    </list>
+    <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Task_2_File_Name.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Snake_Case.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -113,15 +118,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math3_Rounding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -350,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563309207955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563310108543" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -388,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_2_File_Name">
+  <component name="RunManager" selected="Application.Task_4_Snake_Case">
     <configuration name="FacebookLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FacebookLogin" />
       <module name="myjavapr" />
@@ -417,25 +413,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kisma.testChageSettings" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_4_Snake_Case" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_4_Snake_Case" />
       <module name="myjavapr" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Kisma" />
-      <option name="METHOD_NAME" value="testChageSettings" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_4_Snake_Case" />
         <item itemvalue="Application.Task_2_File_Name" />
         <item itemvalue="Application.Task_1_Array_Unique_Elem_Count" />
         <item itemvalue="Application.Math2_CountN" />
         <item itemvalue="Application.FacebookLogin" />
-        <item itemvalue="TestNG.Kisma.testChageSettings" />
       </list>
     </recent_temporary>
   </component>
@@ -495,9 +486,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="60" width="1293" height="708" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4980695" visible="true" weight="0.30793905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980695" visible="true" weight="0.30793905" />
       <window_info id="Structure" order="1" sideWeight="0.5019305" side_tool="true" weight="0.265012" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +496,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5019305" side_tool="true" weight="0.26421136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959904" visible="true" weight="0.40103272" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959904" visible="true" weight="0.40103272" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24651162" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +574,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/LogoutPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/core/DriverEventListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/LoginPage.java" />
@@ -954,8 +943,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Task_2_File_Name.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="81" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Task_3_Snake_Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
