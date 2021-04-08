@@ -1,14 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExamStudent/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExamStudent/StudentRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/RetrofitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/UserServiceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTests/UserServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/api/RetrofitClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/api/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/api/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ApiTests/UserServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Akinator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConsoleCharInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CountCharacterInString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExamStudent/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExamStudent/StudentRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FacebookLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Kisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math1_Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math2_CountN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math3_Rounding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Math4_CountThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_1_Array_Unique_Elem_Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_2_File_Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_3_Arrows.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_3_MinMaxNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_4_CompareNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_4_Snake_Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_5_Define_Season.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Task_5_Math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TypeChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson1/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson1/SeleniumCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/BingSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/GoogleSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/SearchForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/TreeSetExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson12/UseAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson14/GetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson14/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson14/MovieScoreComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson14/MovieTitlesComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson14/SortExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/BrowserNavigation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/FilmInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/TestNgExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/FilmInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/ArrayToString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/ArraysExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/ArraysLoopExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/CharArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/ClassSortExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/IncrementDecrement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/MinMaxArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/HeavyBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/MainForBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/Palindrom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/Recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/StringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/StringIsImmutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson8/CustomListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson8/RealTestNDTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson8/TestNGTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/ExaptionBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/ExceptionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson9/ExceptionMultipleCatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myjavapr.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Akinator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConsoleCharInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CountCharacterInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FacebookLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Kisma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/myjavapr.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Math1_Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Math2_CountN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Math3_Rounding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Math4_CountThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task1_2_MinimalNumber_MaxCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_1_Array_Unique_Elem_Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_2_File_Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_3_Arrows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_3_MinMaxNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_4_CompareNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_4_Snake_Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_5_Define_Season.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Task_5_Math.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TypeChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson1/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson1/SeleniumCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/BingSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/GoogleSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/SearchForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/TreeSetExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson12/UseAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson14/GetRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson14/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson14/MovieScoreComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson14/MovieTitlesComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson14/SortExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/BrowserNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/FilmInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/TestNgExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/BaseTest$BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson5/FilmInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/ArrayToString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/ArraysExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/ArraysLoopExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/CharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/ClassSortExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/IncrementDecrement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/MinMaxArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/HeavyBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/MainForBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/Palindrom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson7/StringIsImmutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson8/CustomListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson8/RealTestNDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson8/TestNGTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/ExaptionBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/ExceptionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson9/ExceptionMultipleCatch.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,98 +159,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="HighwayTH2019" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math2_CountN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Math1_Division.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Task1_2_MinimalNumber_MaxCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="68" column="14" selection-start-line="68" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Task_5_Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="e#1676#1677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lesson12/GoogleSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExamStudent/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExamStudent/StudentRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding>
-                <element signature="e#686#872#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lesson12/BingSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,6 +195,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,18 +261,6 @@
       </list>
     </option>
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="Kisma.testSendMessage" />
-    </enabled-run-configurations>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -237,6 +278,7 @@
     <option name="width" value="1293" />
     <option name="height" value="708" />
   </component>
+  <component name="ProjectId" id="1qqvh882iSaZMls9qn9FQtO9zW6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -297,15 +339,21 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563332768953" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -324,19 +372,7 @@
       <recent name="lesson1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.StudentRunner">
+  <component name="RunManager" selected="TestNG.UserServiceTests">
     <configuration name="StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExamStudent.StudentRunner" />
       <module name="myjavapr" />
@@ -350,44 +386,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2_File_Name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_2_File_Name" />
+    <configuration name="UserServiceTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myjavapr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.UserServiceTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3_Arrows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_3_Arrows" />
+    <configuration name="UserServiceTests.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myjavapr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.UserServiceTests" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_4_Snake_Case" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_4_Snake_Case" />
+    <configuration name="UserServiceTests.getUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myjavapr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.UserServiceTests" />
+      <option name="METHOD_NAME" value="getUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_5_Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_5_Math" />
+    <configuration name="UserServiceTests.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="myjavapr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiTests" />
+      <option name="MAIN_CLASS_NAME" value="ApiTests.UserServiceTests" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserServiceTests" />
+        <item itemvalue="TestNG.UserServiceTests.updateUser" />
+        <item itemvalue="TestNG.UserServiceTests.getUsers" />
+        <item itemvalue="TestNG.UserServiceTests.createUser" />
         <item itemvalue="Application.StudentRunner" />
-        <item itemvalue="Application.Task_5_Math" />
-        <item itemvalue="Application.Task_3_Arrows" />
-        <item itemvalue="Application.Task_4_Snake_Case" />
-        <item itemvalue="Application.Task_2_File_Name" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -504,29 +584,36 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lesson8/RealTestNDTest.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/trello/LogoutTest.java</url>
           <line>6</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Kisma.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/test/java/ApiTests/UserServiceTests.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="api.models.User" memberName="id" />
+        <PinnedItemInfo parentTag="java.lang.IllegalStateException" memberName="detailMessage" />
+        <PinnedItemInfo parentTag="okhttp3.ResponseBody$1" memberName="content" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
