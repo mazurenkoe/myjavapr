@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="539e4cce-2ca3-43c7-b5fc-701991dec9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task2/CountNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Task2/number.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/UserServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/UserServiceApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiTests/UserServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiTests/UserServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,13 +236,13 @@
       <recent name="lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UserServiceTests">
-    <configuration name="StudentRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExamStudent.StudentRunner" />
+  <component name="RunManager" selected="Application.CountNumbers">
+    <configuration name="CountNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.CountNumbers" />
       <module name="myjavapr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamStudent.*" />
+          <option name="PATTERN" value="Task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumbers" />
         <item itemvalue="TestNG.UserServiceTests" />
         <item itemvalue="TestNG.UserServiceTests.getUsers" />
         <item itemvalue="TestNG.UserServiceTests.updateUser" />
         <item itemvalue="TestNG.UserServiceTests.createUser" />
-        <item itemvalue="Application.StudentRunner" />
       </list>
     </recent_temporary>
   </component>
